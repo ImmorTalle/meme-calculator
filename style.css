@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("./img/1618851389_18-phonoteka_org-p-smeshnoi-fon-na-telefon-19.jpg");
+    background-repeat: no-repeat;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.preview {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.calculator_box {
+    display: flex;
+    width: 15%;
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #000;
+    border-right: 6px solid #000000;
+    border-radius: 18px;
+    margin: 0 auto;
+    padding: 10px;
+    background-image: url("./img/Rectangle 1.png");
+}
+
+.calculator_desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    height: 100px;
+    background-image: url("./img/Rectangle 2.png");
+    border-radius: 16px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.result_btn {
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #FF6363;
+}
+
+.calculator_inp, .calculator_btn {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-color: brown;
+
+}
+
+.calculator_inp {
+    background-color: #FFC3C3;
+}
+
+.execute {
+    background-color: #FFC3C3;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px 8px;
+}
